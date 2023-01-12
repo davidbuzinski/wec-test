@@ -38,7 +38,7 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
       - name: test java env
-        run: echo "JAVA_HOME=$JAVA_HOME" >> >> $GITHUB_OUTPUT
+        run: echo "JAVA_HOME=$JAVA_HOME" >> $GITHUB_OUTPUT
         shell: bash
         id: java
       - name: Install WEC-Sim
