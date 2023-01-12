@@ -36,7 +36,7 @@ jobs:
       - name: test java
         uses: matlab-actions/run-command@v1
         with:
-          command: disp(usejava('swing'));
+          command: disp(matlab.ui.internal.hasDisplay);
       - name: Install WEC-Sim
         uses: matlab-actions/run-command@v1
         with:
