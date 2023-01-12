@@ -33,6 +33,10 @@ jobs:
         with:
           release: ${{ matrix.release }}
           products: Simulink Simscape Simscape_Multibody
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'microsoft'
+          java-version: '8'
       - name: test java env
         run: echo $JAVA_HOME
         shell: bash
