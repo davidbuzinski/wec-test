@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/20451353.svg)](https://zenodo.org/badge/latestdoi/20451353)
 [![Doc Build Status](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/docs.yml/badge.svg)](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/docs.yml)
 [![MATLAB Build Status](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-master.yml/badge.svg)](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-master.yml)
-[![MATLAB Build Status](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-dev.yml/badge.svg)](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-dev.yml)
+[![MATLAB Build Status](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-dev.yml/badge.svg)](https://github.com/WEC-Sim/WEC-Sim/actions/workflows/run-tests-dev.yml) 
 
 
 ## WEC-Sim Repository
