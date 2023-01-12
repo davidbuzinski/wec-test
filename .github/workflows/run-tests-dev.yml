@@ -35,7 +35,7 @@ jobs:
           products: Simulink Simscape Simscape_Multibody
       - uses: actions/setup-java@v3
         with:
-          distribution: 'microsoft'
+          distribution: 'temurin'
           java-version: '8'
       - name: test java env
         run: echo $JAVA_HOME
