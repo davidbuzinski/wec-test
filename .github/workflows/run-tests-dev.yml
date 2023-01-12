@@ -38,7 +38,7 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
       - name: test java env
-        run: echo $JAVA_HOME
+        run: echo "$JAVA_HOME" >> >> $GITHUB_ENV
         shell: bash
       - name: Install WEC-Sim
         uses: matlab-actions/run-command@v1
@@ -46,6 +46,8 @@ jobs:
           command: |
             addpath(genpath('source')),
             savepath pathdef.m;
+        env:
+          MATLAB_JAVA: "${{ env.JAVA_HOME }}"
       - name: Run tests and generate artifacts
         uses: matlab-actions/run-command@v1
         with:
