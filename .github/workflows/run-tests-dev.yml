@@ -37,6 +37,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
+          java-package: 'jre'
       - name: test java env
         run: echo "JAVA_HOME=$JAVA_HOME" >> $GITHUB_OUTPUT
         shell: bash
