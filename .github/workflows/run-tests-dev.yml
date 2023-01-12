@@ -57,3 +57,5 @@ jobs:
             set_param(0, 'ErrorIfLoadNewModel', 'off'),
             results = wecSimTest,
             assertSuccess(results);
+        env:
+          MATLAB_JAVA: ${{ steps.java.outputs.JAVA_HOME }}
